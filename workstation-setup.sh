@@ -11,10 +11,10 @@ echo "===== Installing prerequisites ====="
 sudo apt install -y curl wget gnupg software-properties-common unzip
 
 # ---------------------------
-# JDK 17
+# JDK 21
 # ---------------------------
 echo "===== Installing OpenJDK 17 ====="
-sudo apt install -y openjdk-17-jdk
+sudo apt install fontconfig openjdk-21-jre
 
 # ---------------------------
 # Jenkins
