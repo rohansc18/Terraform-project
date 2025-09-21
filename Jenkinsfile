@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/ec2tech-projects/Project-1.git'
+                git branch: 'main', url: 'https://github.com/rohansc18/Terraform-project.git'
             }
         }
         
