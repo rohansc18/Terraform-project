@@ -8,7 +8,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "my-tf-test-bucketxxxaxaxaxaxasasassd-ec2ech"
+    bucket = "terraform-000001"
     key    = "akas/mytffiles/terraform.tfstate"
     region = "us-east-1" 
     
